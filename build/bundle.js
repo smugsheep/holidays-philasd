@@ -973,7 +973,7 @@ var app = (function () {
     			p = element("p");
     			t0 = text(/*remainDisplay*/ ctx[2]);
     			t1 = text(" days remaining");
-    			attr_dev(p, "class", "svelte-u1uuv2");
+    			attr_dev(p, "class", "svelte-1qyf1sz");
     			add_location(p, file$3, 147, 16, 4663);
     		},
     		m: function mount(target, anchor) {
@@ -1012,7 +1012,7 @@ var app = (function () {
     			p = element("p");
     			t0 = text(t0_value);
     			t1 = text(" days since");
-    			attr_dev(p, "class", "svelte-u1uuv2");
+    			attr_dev(p, "class", "svelte-1qyf1sz");
     			add_location(p, file$3, 145, 16, 4590);
     		},
     		m: function mount(target, anchor) {
@@ -1050,7 +1050,7 @@ var app = (function () {
     			p = element("p");
     			t0 = text(/*remainDisplay*/ ctx[2]);
     			t1 = text(" day remains");
-    			attr_dev(p, "class", "svelte-u1uuv2");
+    			attr_dev(p, "class", "svelte-1qyf1sz");
     			add_location(p, file$3, 143, 16, 4496);
     		},
     		m: function mount(target, anchor) {
@@ -1110,19 +1110,19 @@ var app = (function () {
     			t4 = space();
     			div1 = element("div");
     			t5 = text(/*countdownDisplay*/ ctx[3]);
-    			attr_dev(i, "class", "addit svelte-u1uuv2");
+    			attr_dev(i, "class", "addit svelte-1qyf1sz");
     			add_location(i, file$3, 153, 12, 4837);
-    			attr_dev(b, "class", "svelte-u1uuv2");
+    			attr_dev(b, "class", "svelte-1qyf1sz");
     			add_location(b, file$3, 157, 35, 4997);
-    			attr_dev(p, "class", "svelte-u1uuv2");
+    			attr_dev(p, "class", "svelte-1qyf1sz");
     			add_location(p, file$3, 156, 20, 4957);
-    			attr_dev(div0, "class", "svelte-u1uuv2");
+    			attr_dev(div0, "class", "svelte-1qyf1sz");
     			add_location(div0, file$3, 155, 16, 4930);
-    			attr_dev(div1, "class", "card-countdown svelte-u1uuv2");
+    			attr_dev(div1, "class", "card-countdown svelte-1qyf1sz");
     			add_location(div1, file$3, 160, 16, 5155);
-    			attr_dev(div2, "class", "info svelte-u1uuv2");
+    			attr_dev(div2, "class", "info svelte-1qyf1sz");
     			add_location(div2, file$3, 154, 12, 4894);
-    			attr_dev(div3, "class", "card-expand svelte-u1uuv2");
+    			attr_dev(div3, "class", "card-expand svelte-1qyf1sz");
     			add_location(div3, file$3, 152, 8, 4775);
     		},
     		m: function mount(target, anchor) {
@@ -1204,7 +1204,7 @@ var app = (function () {
     			t0 = text(", through a ");
     			b = element("b");
     			b.textContent = `${/*dateEnd*/ ctx[5].weekdayLong}`;
-    			attr_dev(b, "class", "svelte-u1uuv2");
+    			attr_dev(b, "class", "svelte-1qyf1sz");
     			add_location(b, file$3, 157, 92, 5054);
     		},
     		m: function mount(target, anchor) {
@@ -1278,19 +1278,19 @@ var app = (function () {
     			if_block0.c();
     			t6 = space();
     			if (if_block1) if_block1.c();
-    			attr_dev(span0, "class", "date svelte-u1uuv2");
+    			attr_dev(span0, "class", "date svelte-1qyf1sz");
     			add_location(span0, file$3, 136, 8, 4252);
-    			attr_dev(span1, "class", "category svelte-u1uuv2");
+    			attr_dev(span1, "class", "category svelte-1qyf1sz");
     			add_location(span1, file$3, 137, 8, 4300);
-    			attr_dev(div0, "class", "kitkat svelte-u1uuv2");
+    			attr_dev(div0, "class", "kitkat svelte-1qyf1sz");
     			add_location(div0, file$3, 135, 4, 4222);
-    			attr_dev(div1, "class", "title svelte-u1uuv2");
+    			attr_dev(div1, "class", "title svelte-1qyf1sz");
     			add_location(div1, file$3, 140, 8, 4388);
-    			attr_dev(div2, "class", "svelte-u1uuv2");
+    			attr_dev(div2, "class", "svelte-1qyf1sz");
     			add_location(div2, file$3, 141, 8, 4435);
-    			attr_dev(div3, "class", "card svelte-u1uuv2");
+    			attr_dev(div3, "class", "card svelte-1qyf1sz");
     			add_location(div3, file$3, 139, 4, 4360);
-    			attr_dev(div4, "class", "card-wrapper svelte-u1uuv2");
+    			attr_dev(div4, "class", "card-wrapper svelte-1qyf1sz");
     			add_location(div4, file$3, 134, 0, 4124);
     		},
     		l: function claim(nodes) {
@@ -2303,16 +2303,16 @@ var app = (function () {
     			b.textContent = "smugsheep";
     			t2 = space();
     			img = element("img");
-    			add_location(b, file, 3, 23, 106);
+    			add_location(b, file, 3, 23, 123);
     			attr_dev(p, "class", "svelte-1b5cimx");
-    			add_location(p, file, 3, 12, 95);
+    			add_location(p, file, 3, 12, 112);
     			if (!src_url_equal(img.src, img_src_value = "img/github.png")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "github logo");
     			attr_dev(img, "class", "svelte-1b5cimx");
-    			add_location(img, file, 4, 12, 140);
+    			add_location(img, file, 4, 12, 157);
     			attr_dev(div, "class", "feet svelte-1b5cimx");
-    			add_location(div, file, 2, 4, 63);
-    			attr_dev(a, "href", "https://github.com/smugsheep");
+    			add_location(div, file, 2, 4, 80);
+    			attr_dev(a, "href", "https://github.com/smugsheep/holidays-philasd");
     			attr_dev(a, "target", "_blank");
     			attr_dev(a, "class", "svelte-1b5cimx");
     			add_location(a, file, 1, 0, 2);
