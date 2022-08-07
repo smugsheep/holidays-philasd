@@ -9,3 +9,4 @@ view upcoming events for philasd schools :)
  - [ ] revamp mobile?
  - [ ] make checkboxes&options look better
  - [ ] make footer link 2 the repository not profile lol
+ - [ ] FILTER SYSTEM!!!!
