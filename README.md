@@ -2,8 +2,9 @@
 
 view upcoming events for philasd schools :)
 
-- please dont look at my code its very speghetti like
-- todo:
+**please dont look at my code its very speghetti like**
+
+## todo:
  - [ ] remove hover thing on mobile lol
  - [ ] revamp mobile?
  - [ ] make checkboxes&options look better
