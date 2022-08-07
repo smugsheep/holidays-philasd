@@ -1,5 +1,5 @@
 
-<a href="https://github.com/smugsheep" target="_blank">
+<a href="https://github.com/smugsheep/holidays-philasd" target="_blank">
     <div class="feet">
             <p>made by <b>smugsheep</b></p>
             <img src="img/github.png" alt="github logo">

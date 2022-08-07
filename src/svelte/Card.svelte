@@ -246,4 +246,10 @@
         padding-top: 0.5em;
         font-weight: 600;
     }
+
+    @media (max-width: 840px) {
+        .card-wrapper:hover {
+            opacity: 1;
+        }
+    }
 </style>
