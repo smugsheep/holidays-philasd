@@ -110,7 +110,7 @@
         return format;
     }
 
-    function useless() {
+    function olduseless() {
         // let parseStack = [
         //     "months",
         //     "weeks",
@@ -167,10 +167,6 @@
 </div>
 
 <style>
-    * {
-        text-transform: lowercase;
-    }
-
     .card {
         display: flex;
         justify-content: space-between;
@@ -179,15 +175,50 @@
 
     .card-wrapper {
         border-top: 1px solid rgb(192, 192, 192);
-        transition: all 0.3s 0s ease;
         padding: 2em 0;
+        position: relative;
+        /* transition: all 0.3s 0s ease; */
+    }
+
+    .card-wrapper:last-of-type {
+        border-bottom: 1px solid rgb(192, 192, 192);
     }
 
     .card-wrapper:hover {
         cursor: pointer;
-        opacity: 0.6;
-        transition: all 0.3s 0s ease;
+        /* opacity: 0.6; */
+        /* transition: all 0.3s 0s ease; */
     }
+
+    .card-wrapper::before, .card-wrapper::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        z-index: 100;
+        background: linear-gradient(90deg, rgb(16,16,16), rgb(108,108,108));
+        transform-origin: bottom right;
+        transition: transform 0.35s ease-in-out;
+    }
+
+    .card-wrapper::before {
+        inset-block-start: -1px;
+        /* opacity: 0; */
+    }
+
+    .card-wrapper::after {
+        inset-block-end: -1px;
+    }
+
+    .card-wrapper:hover::before, .card-wrapper:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    /* .card-wrapper:active > * {
+        opacity: 0.6;
+    } */
 
     .card-expand {
         padding-top: 1em;
@@ -247,9 +278,6 @@
         font-weight: 600;
     }
 
-    @media (max-width: 840px) {
-        .card-wrapper:hover {
-            opacity: 1;
-        }
-    }
+    /* @media (max-width: 840px) {
+    } */
 </style>
