@@ -197,7 +197,7 @@
         transform: scaleX(0);
         height: 1px;
         z-index: 100;
-        background: linear-gradient(90deg, rgb(16,16,16), rgb(108,108,108));
+        background: linear-gradient(90deg, rgb(50, 40, 40),rgb(132, 100, 100));
         transform-origin: bottom right;
         transition: transform 0.35s ease-in-out;
     }

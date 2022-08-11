@@ -1107,16 +1107,16 @@ var app = (function () {
     			t4 = space();
     			div1 = element("div");
     			t5 = text(/*countdownDisplay*/ ctx[3]);
-    			attr_dev(i, "class", "addit svelte-w4i62v");
+    			attr_dev(i, "class", "addit svelte-k0y3nu");
     			add_location(i, file$3, 153, 12, 4840);
     			add_location(b, file$3, 157, 35, 5000);
     			add_location(p, file$3, 156, 20, 4960);
     			add_location(div0, file$3, 155, 16, 4933);
-    			attr_dev(div1, "class", "card-countdown svelte-w4i62v");
+    			attr_dev(div1, "class", "card-countdown svelte-k0y3nu");
     			add_location(div1, file$3, 160, 16, 5158);
-    			attr_dev(div2, "class", "info svelte-w4i62v");
+    			attr_dev(div2, "class", "info svelte-k0y3nu");
     			add_location(div2, file$3, 154, 12, 4897);
-    			attr_dev(div3, "class", "card-expand svelte-w4i62v");
+    			attr_dev(div3, "class", "card-expand svelte-k0y3nu");
     			add_location(div3, file$3, 152, 8, 4778);
     		},
     		m: function mount(target, anchor) {
@@ -1271,18 +1271,18 @@ var app = (function () {
     			if_block0.c();
     			t6 = space();
     			if (if_block1) if_block1.c();
-    			attr_dev(span0, "class", "date svelte-w4i62v");
+    			attr_dev(span0, "class", "date svelte-k0y3nu");
     			add_location(span0, file$3, 136, 8, 4255);
-    			attr_dev(span1, "class", "category svelte-w4i62v");
+    			attr_dev(span1, "class", "category svelte-k0y3nu");
     			add_location(span1, file$3, 137, 8, 4303);
-    			attr_dev(div0, "class", "kitkat svelte-w4i62v");
+    			attr_dev(div0, "class", "kitkat svelte-k0y3nu");
     			add_location(div0, file$3, 135, 4, 4225);
-    			attr_dev(div1, "class", "title svelte-w4i62v");
+    			attr_dev(div1, "class", "title svelte-k0y3nu");
     			add_location(div1, file$3, 140, 8, 4391);
     			add_location(div2, file$3, 141, 8, 4438);
-    			attr_dev(div3, "class", "card svelte-w4i62v");
+    			attr_dev(div3, "class", "card svelte-k0y3nu");
     			add_location(div3, file$3, 139, 4, 4363);
-    			attr_dev(div4, "class", "card-wrapper svelte-w4i62v");
+    			attr_dev(div4, "class", "card-wrapper svelte-k0y3nu");
     			add_location(div4, file$3, 134, 0, 4127);
     		},
     		l: function claim(nodes) {
